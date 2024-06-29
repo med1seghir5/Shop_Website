@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "After Effects",
+        "price": 10000,
+        "image": "./Picture/After Effects.svg"
+    },
+
+    {
+        "id": 2,
+        "name": "After Effects",
+        "price": 10000,
+        "image": "./Picture/After Effects.svg"
+    },
+
+    {
+        "id": 3,
+        "name": "After Effects",
+        "price": 10000,
+        "image": "./Picture/After Effects.svg"
+    }
+]

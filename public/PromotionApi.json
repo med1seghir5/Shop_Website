@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "name": "Dell Laptop",
+        "OldPrice": 50000,
+        "NewPrice": 40000,
+        "description": "Product 1 description",
+        "image": "./Picture/Dell.jpg"
+    },
+
+    {
+        "id": 2,
+        "name": "PS5 Controller",
+        "OldPrice": 15400,
+        "NewPrice": 10000,
+        "description": "Product 1 description",
+        "image": "./Picture/Frame 4.svg"
+    },
+
+    {
+        "id": 2,
+        "name": "Iphone 13",
+        "OldPrice": 200000,
+        "NewPrice": 180000,
+        "description": "Product 1 description",
+        "image": "./Picture/Device 13PM.svg"
+    }
+]

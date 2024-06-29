@@ -1,0 +1,25 @@
+[
+    {
+        "id": 1,
+        "name": "Macbook Pro 16",
+        "price": 150000,
+        "details": "Silver - M1",
+        "image": "./Picture/Image.svg"
+    },
+
+    {
+        "id": 2,
+        "name": "Macbook Pro 16",
+        "price": 150000,
+        "details": "Silver - M1",
+        "image": "./Picture/Image.svg"
+    },
+
+    {
+        "id": 3,
+        "name": "Macbook Pro 16",
+        "price": 150000,
+        "details": "Silver - M1",
+        "image": "./Picture/Image.svg"
+    }
+]

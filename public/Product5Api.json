@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Apple Pro Display",
+        "price": 100000,
+        "image": "./Picture/Pro Display XDR.svg"
+    },
+
+    {
+        "id": 2,
+        "name": "Apple Pro Display",
+        "price": 100000,
+        "image": "./Picture/Pro Display XDR.svg"
+    },
+
+    {
+        "id": 3,
+        "name": "Apple Pro Display",
+        "price": 100000,
+        "image": "./Picture/Pro Display XDR.svg"
+    }
+]

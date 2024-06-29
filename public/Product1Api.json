@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Playstation 5",
+        "price": 130000,
+        "image": "./Picture/Consoles.jpg"
+    },
+
+    {
+        "id": 2,
+        "name": "Xbox Series",
+        "price": 75000,
+        "image": "./Picture/Xbox one.jpg"   
+    },
+
+    {
+        "id": 3,
+        "name": "Nintendo Switch",
+        "price": 68000,
+        "image": "./Picture/Nintendo.jpg"   
+    }
+]
