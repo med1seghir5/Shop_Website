@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { FaShoppingBasket } from "react-icons/fa";
 import axios from 'axios';
+import { Link } from 'react-router-dom';
+
 
 
 function Product1() {
@@ -43,7 +45,7 @@ function Product1() {
   return (
     <div>
       <div className='flex flex-col items-center font-sans font-semibold p-10 sm:p-4 sm:flex-row sm:items-center sm:justify-between sm:ml-16'>
-        <img src='./Picture/MsShop.svg' alt='MsShop logo' className='w-40 pb-5 sm:w-36' />
+        <Link to='/'><img src='./Picture/MsShop.svg' alt='MsShop logo' className='w-40 pb-5 sm:w-36' /></Link>
         <div className='flex flex-col space-y-2 sm:flex-row justify-center items-center sm:space-y-0 sm:space-x-10 font-sans font-semibold'>
           <label className='flex flex-nowrap space-x-1'>
             <input

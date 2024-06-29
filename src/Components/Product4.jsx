@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { FaShoppingBasket } from "react-icons/fa";
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 function Product4() {
     const [products, setProducts] = useState([]);
     const [input, setInput] = useState("");
     const [filteredProducts, setFilteredProducts] = useState([]);
     const [productCounts, setProductCounts] = useState({});
-    const [Cancel, setCancel] = useState({})
   
     useEffect(() => {
       axios.get('./Product4Api.json')
@@ -43,7 +43,7 @@ function Product4() {
     return (
       <div>
         <div className='flex flex-col items-center font-sans font-semibold p-10 sm:p-4 sm:flex-row sm:items-center sm:justify-between sm:ml-16'>
-          <img src='./Picture/MsShop.svg' alt='MsShop logo' className='w-40 pb-5 sm:w-36' />
+          <Link to='/'><img src='./Picture/MsShop.svg' alt='MsShop logo' className='w-40 pb-5 sm:w-36' /></Link>
           <div className='flex flex-col space-y-2 sm:flex-row justify-center items-center sm:space-y-0 sm:space-x-10 font-sans font-semibold'>
             <label className='flex flex-nowrap space-x-1'>
               <input
@@ -57,7 +57,7 @@ function Product4() {
               <button><img src='./Picture/Union.svg' alt='logo' /></button>
             </label>
           </div>
-          <div className='flex flex-row space-x-10 hidden justify-center items-center sm:flex-row sm:block sm:space-x-5'>
+          <div className='flex-row space-x-10 hidden justify-center items-center sm:flex-row sm:block sm:space-x-5'>
             <button>Login</button>
             <button className='bg-[#1677FF] rounded-lg w-32 sm:w-20 h-7 text-[#ffff] hover:shadow-gray-600 shadow-md'>
               Register
