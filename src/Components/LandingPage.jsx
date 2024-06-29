@@ -40,7 +40,7 @@ function LandingPage() {
   return (
     <div ref={inputRef3}>
       <div className='flex flex-col items-center font-sans font-semibold p-3 sm:p-4 sm:flex-row sm:items-center sm:justify-between sm:ml-16'>
-        <img src='./Picture/MsShop.svg' alt='MsShop logo' className='w-40 pb-5 sm:w-36' />
+      <Link to="/"><img src='./Picture/MsShop.svg' alt='MsShop logo' className='w-40 pb-5 sm:w-36' /></Link>
             <div className='flex-col space-y-2 hidden sm:flex-row sm:block sm:justify-around sm:items-center sm:space-y-0 sm:space-x-10 sm:font-manrope'>
                 <button>Products</button>
                 <button onClick={focusInput2}>Sold</button>
@@ -53,15 +53,15 @@ function LandingPage() {
                 <button className='bg-[#1677FF] rounded-lg w-32 sm:w-20 h-7 text-[#ffff] hover:shadow-gray-600 shadow-md'>
                     Register
                 </button>
-            </div>     
+            </div>
       </div>
 
-      <div className='flex flex-col items-center space-y-5 pt-20 md:flex md:flex-row md:space-x-32 md:pt-32 '>
-        <div className='flex flex-col items-center space-y-6 text-center md:flex md:flex-col md:items-start md:pl-8 md:text-left '>
-            <div className='font-sans font-bold text-7xl text-[#898989]'>
+      <div className='flex flex-col items-center space-y-5 pt-5 md:flex md:flex-row md:space-x-32 md:pt-16 '>
+        <div className='flex flex-col items-center justify-center space-y-6 text-center md:flex md:flex-col md:items-start md:pl-8 md:text-left '>
+            <div className='font-sans font-bold text-6xl text-[#898989] md:text-7xl'>
                 Best Place to Buy
             </div>
-            <div className='font-sans font-bold text-7xl text-[#1677FF]'>
+            <div className='font-sans font-bold text-6xl text-[#1677FF] md:text-7xl'>
                 Everything
             </div>
             <div className='font-sans font-semibold text-[#3f3f3f]'>At MsShop, you can shop for all your favorite brands.<br/>Laptops, Phones, Accessories.</div>
@@ -89,17 +89,17 @@ function LandingPage() {
             <Link to="/Product1.jsx"><button><img src='./Picture/Laptops.jpg' className='shadow-drop-1-center h-56 rounded-xl shadow-lg shadow-slate-500' alt='logo' /></button></Link>
             </div>
             <div>
-              <div className='text-white font-bold text-5xl absolute ml-14 mt-20 md:text-white md:font-bold md:text-5xl md:absolute md:ml-20 md:mt-20'>Phones</div>
+              <div className='text-white font-bold text-5xl absolute ml-20 mt-20 md:text-white md:font-bold md:text-5xl md:absolute md:ml-20 md:mt-20'>Phones</div>
               <Link to="/Product2.jsx"><button><img src='./Picture/Phones.jpg' className='shadow-drop-1-center h-60 rounded-xl shadow-lg shadow-slate-500' alt='logo' /></button></Link>
             </div>
             <div>
-              <div className='text-white font-bold text-5xl absolute ml-7 mt-20 md:text-white md:font-bold md:text-5xl md:absolute md:ml-20 md:mt-20'>Consoles</div>
+              <div className='text-white font-bold text-5xl absolute ml-16 mt-20 md:text-white md:font-bold md:text-5xl md:absolute md:ml-20 md:mt-20'>Consoles</div>
               <Link to="/Product5.jsx"><button><img src='./Picture/Consoles.jpg' className='shadow-drop-1-center h-56 rounded-xl shadow-lg shadow-slate-500' alt='logo' /></button></Link>
             </div>
           </div>
           <div className='flex flex-col items-center space-y-5 md:flex md:flex-row md:justify-center md:items-center md:space-x-24'>
             <div>
-              <div className='text-white font-bold text-5xl absolute ml-8 mt-20 md:text-white md:font-bold md:text-5xl md:absolute md:ml-16 md:mt-24'>Softwares</div>
+              <div className='text-white font-bold text-5xl absolute ml-14 mt-20 md:text-white md:font-bold md:text-5xl md:absolute md:ml-16 md:mt-24'>Softwares</div>
               <Link to="/Product4.jsx"><button><img src='./Picture/Softwar.jpg' className='shadow-drop-1-center h-56 rounded-xl shadow-lg shadow-slate-500' alt='logo'/></button></Link>
             </div>
             <div>
@@ -114,7 +114,7 @@ function LandingPage() {
             - Our promotions this
               Month :
             </div>
-            <div className='flex flex-col items-center font-bold pb-28 md:flex md:flex-row md:justify-around md:items-center md:font-bold md:pb-28' ref={inputRef2}>
+            <div className='flex flex-col items-center font-bold space-y-16 pb-28 md:flex md:flex-row md:justify-around md:items-center md:font-bold md:pb-28' ref={inputRef2}>
               {
                 Promo.map((item) => (
                   <div key={item.id} className='flex flex-col items-center'>
